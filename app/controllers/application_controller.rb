@@ -7,4 +7,6 @@ class ApplicationController < ActionController::Base
   def configure_permitted_parameters
     devise_parameter_sanitizer.permit(:sing_up, keys: [:name])
   end
+
+  
 end
