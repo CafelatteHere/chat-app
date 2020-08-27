@@ -57,5 +57,5 @@ gem 'devise'
 
 gem 'pry-rails'
 
-gem 'mini_magick'
+gem 'mini-magick'
 gem 'image_processing', '~> 1.2'
